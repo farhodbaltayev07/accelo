@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accelo — Demo</title>
+<meta name="description" content="Accelo demo-videosi, tavsifi va ishlaydigan prototip havolasi.">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<header class="hdr">
+  <div class="wrap">
+    <a class="logo" href="../index.html" aria-label="Accelo bosh sahifa">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3 3 28h26z" fill="#1E6FE0"/><path d="M16 25V12m0 0-5 5m5-5 5 5" stroke="#FF6A13" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <b>ACCEL<span>O</span></b>
+    </a>
+    <nav class="nav" id="nav" aria-label="Bo'limlar">
+      <a href="../index.html#muammo">Muammo</a>
+      <a href="../index.html#yechim">Yechim</a>
+      <a href="../index.html#jamoa">Jamoa</a>
+      <a href="../index.html#yol-xaritasi">Yo'l xaritasi</a>
+      <a href="../index.html#reja">Amalga oshirish</a>
+      <a href="../index.html#imkoniyatlar">Imkoniyatlar</a>
+      <a href="../index.html#ai-agentlar">AI agentlar</a>
+      <a href="index.html" aria-current="page" style="color:#EEF2F8">Demo</a>
+      <a href="../prototype/index.html#/kirish" class="nav-login">Kirish</a>
+    </nav>
+    <a class="btn btn-or" href="../prototype/index.html">Prototipni ochish</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Menyu" aria-expanded="false" aria-controls="nav">☰</button>
+  </div>
+</header>
+
+<main>
+<section style="padding-top:56px">
+  <div class="wrap">
+    <div class="sec-h">
+      <p class="eyebrow">Demo</p>
+      <h2>Accelo qanday ishlaydi — 3 daqiqada</h2>
+      <p class="lead">Ishlaydigan prototipdan yozib olingan video: so'rovdan to'lov, chek, yetkazish va pul aylanishigacha, keyin karta to'lovi, AI yordamchi va admin panel.</p>
+    </div>
+
+    <!-- 6.1 Demo-video -->
+    <div class="player">
+      <video id="vid" controls playsinline preload="metadata" poster="poster.jpg" width="1280" height="720">
+        <source src="accelo-demo.mp4" type="video/mp4">
+        <source src="accelo-demo.webm" type="video/webm">
+        Brauzeringiz videoni qo'llab-quvvatlamaydi. <a href="accelo-demo.mp4">Videoni yuklab oling</a>.
+      </video>
+    </div>
+
+    <div class="dgrid">
+      <!-- 6.2 Tavsif -->
+      <div class="box">
+        <h2>Video tavsifi</h2>
+        <p><b>1-qism (taqdimot rejimi).</b> Xaridor oddiy tilda «5000 ta g'isht Chilonzorga» deb yozadi. Tizim mahsulot, miqdor va manzilni tushunadi va so'rovni yaqin atrofdagi mos ishlab chiqaruvchilarga yuboradi. Uchta taklif keladi — har biri <b>eshikkacha yakuniy narxda</b>: eng yaqin zavod eng arzon emas, 71 km uzoqdagisi 371 000 so'm arzonroq.</p>
+        <p>Kompaniya STIR bilan ro'yxatdan o'tib, <b>bank o'tkazmasi</b> bilan to'laydi — hisob-faktura chiqadi, pul <b>qabulgacha himoyada</b>, <b>chek avtomatik</b> yaratiladi. Yukni hamkor logistika olib keladi, qabuldan keyin pul sotuvchi, logistika va Accelo o'rtasida taqsimlanadi. Sotuvchi shu pul bilan xom ashyo oladi — pul platforma ichida aylanadi.</p>
+        <p><b>2-qism (yangi imkoniyatlar).</b> Jismoniy shaxs telefon bilan ro'yxatdan o'tadi va <b>karta orqali</b> to'laydi: karta raqami tekshiriladi, SMS kod bilan tasdiqlanadi, chek PDF qilib yuklab olinadi. <b>AI yordamchi</b> so'rovni o'zi bajarib, eng foydali taklifni topadi. <b>Administrator</b> barcha foydalanuvchilar, to'lovlar va himoyadagi pulni ko'radi. Oxirida — talab xaritasi.</p>
+        <h2 style="margin-top:20px">Bo'limlar</h2>
+        <ul class="chap">
+          <li><button data-t="0">0:00</button>Muammo</li>
+          <li><button data-t="9">0:09</button>So'rov oddiy tilda yoziladi</li>
+          <li><button data-t="13">0:13</button>Tizim so'rovni tushunadi</li>
+          <li><button data-t="17">0:17</button>Takliflar va eshikkacha narx</li>
+          <li><button data-t="29">0:29</button>Kompaniya: bank o'tkazmasi, pul himoyada</li>
+          <li><button data-t="39">0:39</button>Chek avtomatik yaratiladi</li>
+          <li><button data-t="42">0:42</button>Logistika va kuzatuv</li>
+          <li><button data-t="51">0:51</button>Qabul va pul taqsimoti</li>
+          <li><button data-t="57">0:57</button>Pul aylanishi: xom ashyo xaridi</li>
+          <li><button data-t="69">1:09</button>Statistika</li>
+          <li><button data-t="80">1:20</button>Yangi imkoniyatlar</li>
+          <li><button data-t="85">1:25</button>Jismoniy shaxs ro'yxatdan o'tadi</li>
+          <li><button data-t="96">1:36</button>Karta orqali to'lov va SMS tasdiq</li>
+          <li><button data-t="119">1:59</button>Chek: PDF yuklab olish</li>
+          <li><button data-t="126">2:06</button>To'lovlar va cheklar tarixi</li>
+          <li><button data-t="129">2:09</button>AI yordamchi</li>
+          <li><button data-t="147">2:27</button>Administrator paneli</li>
+          <li><button data-t="163">2:43</button>Talab xaritasi</li>
+          <li><button data-t="169">2:49</button>Xulosa</li>
+        </ul>
+      </div>
+
+      <!-- 6.3 Prototip havolasi -->
+      <div class="proto">
+        <div class="box">
+          <h2>Ishlaydigan prototip</h2>
+          <p>Prototipni o'zingiz boshqarishingiz mumkin. «Taqdimotni boshlash» tugmasi videodagi yo'lni avtomatik ko'rsatadi.</p>
+          <div class="proto">
+            <a class="btn btn-or" href="../prototype/index.html">Prototipni ochish</a>
+            <a class="btn btn-ghost" href="../prototype/index.html#/kirish">Ro'yxatdan o'tish</a>
+            <a class="btn btn-ghost" href="../index.html">Loyiha sahifasi</a>
+          </div>
+        </div>
+        <div class="box">
+          <h2>Sinab ko'ring</h2>
+          <p>Qidiruv qatoriga yozing:</p>
+          <div class="tags" style="margin-bottom:10px"><span class="tag">5000 ta g'isht Chilonzorga</span><span class="tag">200 qop sement Yunusobodga</span><span class="tag">2 tonna pomidor Sergeliga</span><span class="tag">300 ta shisha banka Samarqandga</span></div>
+          <p class="hint">Ro'yxatdan o'tish SMS kodi: <b>1234</b>. Test karta: <b>8600 1234 5678 9012</b>, muddat <b>12/29</b> (to'lov SMS kodi ekranda ko'rsatiladi). Admin PIN: <b>2026</b>.</p>
+          <p class="hint">Kompaniya, narx va to'lovlar — demo ma'lumot. Haqiqiy pul yechilmaydi, karta raqami saqlanmaydi; akkaunt va cheklar faqat sizning brauzeringizda saqlanadi.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>© 2026 Accelo jamoasi · Pitch Day 3.0</p>
+    <p><a href="../index.html">Bosh sahifa</a> · <a href="../prototype/index.html">Prototip</a></p>
+  </div>
+</footer>
+
+<script src="../assets/bot.js" defer></script>
+<script src="../assets/reveal.js" defer></script>
+<script>
+(function(){
+  var b=document.getElementById('menuBtn'), n=document.getElementById('nav');
+  b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');});
+  var v=document.getElementById('vid');
+  document.querySelectorAll('.chap button').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var t=+btn.getAttribute('data-t');
+      try{ v.currentTime=t; var p=v.play(); if(p&&p.catch)p.catch(function(){}); }catch(e){}
+      v.scrollIntoView({behavior:'smooth',block:'center'});
+    });
+  });
+})();
+</script>
+</body>
+</html>

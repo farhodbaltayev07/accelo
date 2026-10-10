@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accelo — katta xarid ishlab chiqaruvchidan</title>
+<meta name="description" content="Accelo: katta hajmdagi tovarni ishlab chiqaruvchidan to'g'ridan-to'g'ri, eshikkacha yakuniy narx va himoyalangan to'lov bilan xarid qilish platformasi.">
+<meta property="og:title" content="Accelo — katta xarid ishlab chiqaruvchidan">
+<meta property="og:description" content="Bitta so'rov, eshikkacha narx, himoyalangan to'lov, hamkor logistika va talab xaritasi.">
+<meta property="og:image" content="assets/home.webp">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="hdr">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="Accelo bosh sahifa">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3 3 28h26z" fill="#1E6FE0"/><path d="M16 25V12m0 0-5 5m5-5 5 5" stroke="#FF6A13" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <b>ACCEL<span>O</span></b>
+    </a>
+    <nav class="nav" id="nav" aria-label="Bo'limlar">
+      <a href="#muammo">Muammo</a>
+      <a href="#yechim">Yechim</a>
+      <a href="#jamoa">Jamoa</a>
+      <a href="#yol-xaritasi">Yo'l xaritasi</a>
+      <a href="#imkoniyatlar">Imkoniyatlar</a>
+      <a href="#ai-agentlar">AI agentlar</a>
+      <a href="demo/index.html">Demo</a>
+      <a href="prototype/index.html#/kirish" class="nav-login">Kirish</a>
+    </nav>
+    <a class="btn btn-ghost hdr-login" href="prototype/index.html#/kirish">Kirish</a>
+    <a class="btn btn-or" href="demo/index.html">Demoni ko'rish</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Menyu" aria-expanded="false" aria-controls="nav">☰</button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Pitch Day 3.0 · Accelo</p>
+      <h1 style="margin-top:14px">Katta xarid — <em>ishlab chiqaruvchidan</em>, eshikkacha narx bilan</h1>
+      <p class="lead">G'isht, sement, mahsulot yoki xom ashyoni katta hajmda olish kerakmi? Bitta so'rov yozasiz — mos ishlab chiqaruvchilar taklif beradi, har biri yetkazib berish bilan yakuniy narxda. Pul yuk qabul qilinguncha himoyada turadi.</p>
+      <div class="hero-btns">
+        <a class="btn btn-or" href="demo/index.html"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>Demo-videoni ko'rish</a>
+        <a class="btn btn-ghost" href="prototype/index.html">Prototipni ochish</a>
+        <a class="btn btn-ghost" href="prototype/index.html#/kirish">Ro'yxatdan o'tish</a>
+      </div>
+      <div class="chips">
+        <span class="chip">B2C va B2B</span><span class="chip">Himoyalangan to'lov</span><span class="chip">Hamkor logistika</span><span class="chip">Talab xaritasi</span><span class="chip">Karta to'lovi va chek</span><span class="chip">AI yordamchi</span>
+      </div>
+    </div>
+    <img class="hero-img" src="assets/home.webp" width="1400" height="941" alt="Accelo prototipining bosh sahifasi: so'rov qatori va eshikkacha narxli takliflar">
+  </div>
+</section>
+
+<!-- 1. MUAMMO -->
+<section class="light" id="muammo">
+  <div class="wrap">
+    <div class="sec-h">
+      <p class="eyebrow">1 · Muammo</p>
+      <h2>Aziz uy quryapti: unga 5000 ta g'isht kerak</h2>
+      <p class="lead">Bugun katta hajmdagi xarid shunday ko'rinadi (misol hikoya):</p>
+    </div>
+    <div class="timeline">
+      <div class="tl" style="--c:#C9D3E3"><div class="tl-card"><p class="tl-day">1-kun</p><h3>Qidiruv</h3><p>Telegram guruhlar va tanishlardan so'raydi</p></div></div>
+      <div class="tl" style="--c:#D9B9A6"><div class="tl-card"><p class="tl-day">2–3-kun</p><h3>Qo'ng'iroqlar</h3><p>O'nlab zavodga qo'ng'iroq, har birida boshqa narx</p></div></div>
+      <div class="tl" style="--c:#EDA07A"><div class="tl-card"><p class="tl-day">4-kun</p><h3>Yetkazish</h3><p>Mashina alohida kelishiladi, summa oshib ketadi</p></div></div>
+      <div class="tl" style="--c:#F58A4E"><div class="tl-card"><p class="tl-day">5-kun</p><h3>To'lov</h3><p>Pulni oldindan beradi, hech qanday kafolatsiz</p></div></div>
+      <div class="tl" style="--c:#FF7A2E"><div class="tl-card hot"><p class="tl-day" style="color:#C24A06">7-kun</p><h3>Qabul</h3><p>Yuk keldi, bir qismi singan. Endi kimga aytadi?</p></div></div>
+    </div>
+    <div class="note"><b style="color:#FF7A2E;font-size:22px">⏱</b><p><b>Bir hafta vaqt, noaniq narx va xavf.</b> Ishlab chiqaruvchi tomonda ham xuddi shunday: xaridor topish uchun bozorda turadi, reklamaga va vositachiga pul beradi.</p></div>
+  </div>
+</section>
+
+<section id="muammolar" style="padding-top:80px">
+  <div class="wrap">
+    <div class="sec-h">
+      <p class="eyebrow">7 ta muammo</p>
+      <h2>Bozorning ikki tomonida</h2>
+    </div>
+    <p class="side-lbl">Xaridor</p>
+    <div class="pgrid">
+      <div class="pcard"><p class="n">01</p><h3>Qidiruv</h3><p>Kim sotadi, qayerda, qancha — noma'lum</p></div>
+      <div class="pcard"><p class="n">02</p><h3>Yakuniy narx</h3><p>Yetkazish narxi faqat oxirida bilinadi</p></div>
+      <div class="pcard"><p class="n">03</p><h3>To'lov xavfi</h3><p>Oldindan to'lov, hech qanday kafolat yo'q</p></div>
+      <div class="pcard"><p class="n">04</p><h3>Logistika</h3><p>Mashinani alohida izlash va kelishish</p></div>
+    </div>
+    <p class="side-lbl">Ishlab chiqaruvchi</p>
+    <div class="pgrid">
+      <div class="pcard"><p class="n">05</p><h3>Xaridor topish</h3><p>Bozor, reklama va vositachi ulushi</p></div>
+      <div class="pcard"><p class="n">06</p><h3>Ko'rinmas talab</h3><p>Qayerda nima kerakligini bilmaydi</p></div>
+      <div class="pcard"><p class="n">07</p><h3>Aylanma pul</h3><p>Pul kutiladi, xom ashyoga qarz olinadi</p></div>
+      <div class="pcard res"><p>Natija</p><h3>Ikki tomon ham vaqt va pul yo'qotadi</h3></div>
+    </div>
+  </div>
+</section>
+
+<!-- 1. YECHIM -->
+<section id="yechim" style="padding-top:40px">
+  <div class="wrap">
+    <div class="sec-h">
+      <p class="eyebrow">1 · Muammo → Yechim</p>
+      <h2>Accelo: hammasi bitta platformada</h2>
+      <p class="lead">Xaridor bir joyda so'raydi, solishtiradi, to'laydi va kuzatadi. Ishlab chiqaruvchi so'rovni o'zi oladi va pulini kafolatli oladi.</p>
+    </div>
+    <div class="hub">
+      <div class="node"><h3>Xaridor</h3><p>Jismoniy shaxs yoki kompaniya</p></div>
+      <div class="arrow"><i>⇄</i>so'rov, to'lov</div>
+      <div class="node acc"><h3>Accelo</h3><p>So'rov · narx · to'lov · yetkazish</p></div>
+      <div class="arrow"><i>⇄</i>signal, buyurtma</div>
+      <div class="node"><h3>Ishlab chiqaruvchi</h3><p>Zavod, sex, fermer, hunarmand</p></div>
+    </div>
+    <div class="hub2">
+      <div class="node gr"><h3>Bank hamkor</h3><p>Litsenziyali — pul qabulgacha himoyada</p></div>
+      <div class="node gr"><h3>Karvo · Yandex</h3><p>Hamkor logistika — eng arzon mos mashina</p></div>
+    </div>
+
+    <div style="margin-top:56px">
+
+      <div class="pair">
+        <div class="prob"><div class="top"><p class="big">01</p><div><p class="k">Muammo</p><p class="s">Xaridor tomoni</p></div></div>
+          <h3>Kim sotadi? Qayerda? Qancha?</h3>
+          <ul><li>Telegram guruhlar, tanishlar, e'lonlar</li><li>O'nlab qo'ng'iroq — har birida boshqa narx</li><li>Zavodni vositachidan ajratib bo'lmaydi</li></ul>
+          <p class="res">Kunlar ketadi, narx baribir noaniq.</p></div>
+        <div class="sol"><p class="k"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>Yechim</p>
+          <h3>Bitta so'rov — hamma mos sotuvchiga</h3>
+          <p>Oddiy tilda yozasiz: «5000 ta g'isht Chilonzorga». Tizim mahsulot, miqdor va manzilni tushunadi va 200 km ichidagi mos ishlab chiqaruvchilarga signal yuboradi.</p>
+          <div class="shots"><img src="assets/confirm.webp" width="1400" height="337" loading="lazy" alt="Tizim so'rovni tushundi: mahsulot, miqdor, viloyat va tuman"><img src="assets/scan.webp" width="1400" height="421" loading="lazy" alt="So'rov xaritada mos ishlab chiqaruvchilarga yuborilmoqda"></div>
+        </div>
+      </div>
+
+      <div class="pair">
+        <div class="prob"><div class="top"><p class="big">02</p><div><p class="k">Muammo</p><p class="s">Xaridor tomoni</p></div></div>
+          <h3>Narx bor, yakuniy summa yo'q</h3>
+          <ul><li>Sotuvchi faqat birlik narxini aytadi</li><li>Yetkazish alohida kelishiladi</li><li>Eng yaqin sotuvchi doim ham arzon emas</li></ul>
+          <p class="res">Haqiqiy xarajat yuk kelgandagina bilinadi.</p></div>
+        <div class="sol"><p class="k"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>Yechim</p>
+          <h3>Har taklif — eshikkacha yakuniy narx</h3>
+          <p>Tizim masofa va yuk hajmiga mos mashinani (Damas → Fura) o'zi hisoblaydi: tovar va yetkazish bitta summada ko'rinadi.</p>
+          <div class="shots"><img src="assets/results.webp" width="1400" height="1132" loading="lazy" style="width:min(100%,480px)" alt="Uchta taklif, har biri eshikkacha yakuniy narx bilan">
+            <div class="facts"><div class="fact"><span>Eng yaqin · 14,2 km</span><b>6 806 000 so'm</b></div><div class="fact or"><span>Eng foydali · 71,4 km</span><b>6 435 000 so'm</b></div><div class="fact gr"><span>Tejov — eng yaqin ≠ eng arzon</span><b>371 000 so'm</b></div><p class="hint">Prototipdagi demo hisob-kitob</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pair">
+        <div class="prob"><div class="top"><p class="big">03</p><div><p class="k">Muammo</p><p class="s">Ikki tomon</p></div></div>
+          <h3>Oldindan to'lov — kafolatsiz</h3>
+          <ul><li>Pul berildi, yuk kelmasligi mumkin</li><li>Miqdor va sifat bo'yicha nizo yechimsiz</li><li>Sotuvchi ham xaridorga ishonmaydi</li></ul>
+          <p class="res">Ishonch yo'q — bitim sekinlashadi.</p></div>
+        <div class="sol"><p class="k"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>Yechim</p>
+          <h3>Pul qabulgacha himoyada turadi</h3>
+          <p>To'lov litsenziyali bank hamkorda saqlanadi. Xaridor qabulni tasdiqlagach, pul avtomatik taqsimlanadi: sotuvchiga, logistikaga va Accelo komissiyasiga. Muammo bo'lsa — nizo ochiladi.</p>
+          <div class="shots"><img src="assets/paid.webp" width="1040" height="1232" loading="lazy" style="width:min(100%,280px)" alt="To'lov qabul qilindi, pul himoyada"><img src="assets/split.webp" width="776" height="1332" loading="lazy" style="width:min(100%,210px)" alt="Qabuldan keyin pul taqsimoti">
+            <div class="facts"><div class="fact"><span>1-qadam</span><b style="font-size:17px">To'laysiz — pul himoyada</b></div><div class="fact"><span>2-qadam</span><b style="font-size:17px">Yuk keladi — tekshirasiz</b></div><div class="fact gr"><span>3-qadam</span><b style="font-size:17px">Tasdiqlaysiz — pul taqsimlanadi</b></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pair">
+        <div class="prob"><div class="top"><p class="big">04</p><div><p class="k">Muammo</p><p class="s">Xaridor tomoni</p></div></div>
+          <h3>Mashinani o'zing top</h3>
+          <ul><li>Qaysi mashina mos: Damasmi, Furami?</li><li>Haydovchi bilan narx alohida tortishuv</li><li>Yuk qayerdaligini hech kim aytmaydi</li></ul>
+          <p class="res">Logistika tejalgan pulni yeb qo'yadi.</p></div>
+        <div class="sol"><p class="k"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>Yechim</p>
+          <h3>Mos mashina avtomatik, yo'l jonli</h3>
+          <p>Hamkor logistika (Karvo, Yandex) orqali yuk hajmiga eng arzon mashina tanlanadi: Damas 800 kg, Isuzu 5 t, KamAZ 15 t, Fura 20 t. Har bir bosqich ikki tomonga ham ko'rinadi.</p>
+          <div class="shots"><img src="assets/order_truck.webp" width="1400" height="834" loading="lazy" style="width:min(100%,640px)" alt="Buyurtma kuzatuvi: bosqichlar va xaritada yo'ldagi mashina"></div>
+        </div>
+      </div>
+
+      <div class="pair">
+        <div class="prob"><div class="top"><p class="big">05</p><div><p class="k">Muammo</p><p class="s">Ishlab chiqaruvchi tomoni</p></div></div>
+          <h3>Xaridor topish — alohida ish</h3>
+          <ul><li>Bozorda turish, reklamaga pul</li><li>Vositachi ulushi narxni oshiradi</li><li>Buyurtma tasodifga bog'liq</li></ul>
+          <p class="res">Zavod ishlab chiqarish o'rniga savdo bilan band.</p></div>
+        <div class="sol"><p class="k"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>Yechim</p>
+          <h3>So'rovlar sotuvchiga o'zi keladi</h3>
+          <p>Sotuvchi kabinetida mos so'rovlar ro'yxati: bir tugma bilan taklif beriladi. Reklama va obuna to'lovi yo'q — komissiya faqat yakunlangan bitimdan 2%.</p>
+          <div class="shots"><img src="assets/seller.webp" width="1400" height="941" loading="lazy" style="width:min(100%,640px)" alt="Sotuvchi kabineti: balans, komissiya va kiruvchi so'rovlar"></div>
+        </div>
+      </div>
+
+      <div class="pair">
+        <div class="prob"><div class="top"><p class="big">06</p><div><p class="k">Muammo</p><p class="s">Ishlab chiqaruvchi tomoni</p></div></div>
+          <h3>Talab ko'rinmaydi</h3>
+          <ul><li>Qaysi viloyatda nima yetishmaydi — noma'lum</li><li>Yangi sex ochish taxminga asoslanadi</li><li>Javob olmagan xaridor jimgina ketadi</li></ul>
+          <p class="res">Bozorda bo'shliq bor, lekin uni hech kim ko'rmaydi.</p></div>
+        <div class="sol"><p class="k"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>Yechim</p>
+          <h3>Talab xaritasi butun O'zbekiston bo'yicha</h3>
+          <p>Har bir javobsiz so'rov xaritaga tushadi — 14 hudud va tumanlar kesimida. Ishlab chiqaruvchi qayerda nima kerakligini ko'radi, yangi biznes sexni ma'lumot asosida ochadi.</p>
+          <div class="shots"><img src="assets/talab.webp" width="1400" height="981" loading="lazy" style="width:min(100%,560px)" alt="O'zbekiston xaritasida javobsiz so'rovlar hududlar bo'yicha (demo ma'lumot)"><img src="assets/picker_qr.webp" width="1400" height="1203" loading="lazy" style="width:min(100%,300px)" alt="Manzilni xaritadan tanlash: Qoraqalpog'iston Respublikasi tumanlari"></div>
+        </div>
+      </div>
+
+      <div class="pair">
+        <div class="prob"><div class="top"><p class="big">07</p><div><p class="k">Muammo</p><p class="s">Ishlab chiqaruvchi tomoni</p></div></div>
+          <h3>Aylanma pul yetishmaydi</h3>
+          <ul><li>Sotuvchi pulini kutib turadi</li><li>Xom ashyo uchun yana qarz oladi</li><li>Har bitimdan keyin pul tizimdan chiqadi</li></ul>
+          <p class="res">Ishlab chiqarish to'xtab-to'xtab ishlaydi.</p></div>
+        <div class="sol"><p class="k"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>Yechim</p>
+          <h3>Pul platforma ichida aylanadi</h3>
+          <p>Bitim yakunlangach pul sotuvchining balansiga tushadi va u shu pul bilan platformadagi ta'minotchidan xom ashyo oladi. Bitta pul ikki marta ishlaydi, Accelo ikkala bitimdan komissiya oladi.</p>
+          <div class="shots"><img src="assets/chain.webp" width="1400" height="292" loading="lazy" alt="Pul aylanishi: xaridor, sotuvchi va xom ashyo ta'minotchisi">
+            <div class="facts" style="flex-direction:row;flex-wrap:wrap"><div class="fact" style="flex:1;min-width:180px"><span>1-bitim · xaridor to'ladi</span><b>6 435 000</b></div><div class="fact" style="flex:1;min-width:180px"><span>Sotuvchi balansida qoldi</span><b>5 145 000</b></div><div class="fact or" style="flex:1;min-width:180px"><span>2-bitim · 40 t loy + yetkazish</span><b>2 600 000</b></div></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- IMKONIYATLAR -->
+<section id="imkoniyatlar" style="padding-top:72px">
+  <div class="wrap">
+    <div class="sec-h">
+      <p class="eyebrow">Prototipda ishlaydi</p>
+      <h2>Xuddi real tizimdek: ro'yxat, karta to'lovi, chek va admin</h2>
+      <p class="lead">Hammasini prototipda o'zingiz sinab ko'rishingiz mumkin. Akkauntlar, buyurtmalar va cheklar brauzerda saqlanadi — sahifani yangilasangiz ham yo'qolmaydi.</p>
+    </div>
+    <div class="fgrid">
+      <article class="feat"><img src="assets/f_roles.webp" width="1400" height="941" loading="lazy" alt="Ro'yxatdan o'tish: jismoniy shaxs, kompaniya, sotuvchi va administrator"><div><p class="fk">01 · Ro'yxatdan o'tish</p><h3>4 xil rol, telefon + SMS kod</h3><p>Jismoniy shaxs, kompaniya (STIR bilan), sotuvchi (3 bosqichli tekshiruv) va administrator. Qaytib kirish — telefon raqam bilan.</p></div></article>
+      <article class="feat"><img src="assets/f_card.webp" width="1400" height="941" loading="lazy" alt="Karta orqali to'lov oynasi: karta raqami, muddat va test kartalar"><div><p class="fk">02 · Karta orqali to'lov</p><h3>Uzcard, Humo, Visa, Mastercard</h3><p>Raqam tekshiriladi (Luhn algoritmi), karta turi aniqlanadi, muddat tekshiriladi, SMS kod bilan tasdiqlanadi. Kompaniyalar — bank o'tkazmasi va hisob-faktura.</p></div></article>
+      <article class="feat"><img src="assets/f_receipt.webp" width="800" height="785" loading="lazy" alt="Accelo to'lov cheki: to'lovchi, sotuvchi, summa va holat"><div><p class="fk">03 · Chek</p><h3>Har to'lovga chek — PNG yoki PDF</h3><p>Chek avtomatik yaratiladi va saqlanadi: raqami, tranzaksiya ID, karta oxirgi 4 raqami, holati (himoyada → yakunlandi). Bir tugma bilan yuklab olinadi.</p></div></article>
+      <article class="feat"><img src="assets/f_payments.webp" width="1400" height="941" loading="lazy" alt="To'lovlar va cheklar sahifasi"><div><p class="fk">04 · To'lovlar tarixi</p><h3>Pul saqlanib qoladi</h3><p>Jami to'lovlar, himoyadagi va yakunlangan summa. Karta raqamining o'zi saqlanmaydi — faqat oxirgi 4 raqam.</p></div></article>
+      <article class="feat"><img src="assets/f_agent.webp" width="1400" height="941" loading="lazy" alt="AI yordamchi: so'rovni tushunib takliflarni solishtirdi"><div><p class="fk">05 · AI yordamchi</p><h3>Buyruqni tushunadi va bajaradi</h3><p>«5000 ta g'isht Chilonzorga» desangiz — takliflarni yig'adi, eng foydalisini topadi, rasmiylashtirishni ochadi. Buyurtma holati, chek, talab tahlili.</p></div></article>
+      <article class="feat"><img src="assets/f_admin.webp" width="1400" height="941" loading="lazy" alt="Admin panel: foydalanuvchilar, to'lovlar, himoyadagi pul"><div><p class="fk">06 · Admin panel</p><h3>Platforma egasi hammasini ko'radi</h3><p>Barcha foydalanuvchilar, sotuvchilarni tasdiqlash, barcha to'lovlar va cheklar, himoyadagi pul, nizolarni hal qilish.</p></div></article>
+    </div>
+
+    <div class="sec-h" style="margin-top:64px"><p class="eyebrow">Kimga nima ko'rinadi</p><h2>Har bir rolning o'z kabineti</h2></div>
+    <div class="tbl-wrap">
+    <table class="tbl dark">
+      <tr><th style="width:24%">Bo'lim</th><th>Mehmon</th><th>Jismoniy shaxs</th><th>Kompaniya / YaTT</th><th>Sotuvchi</th><th>Administrator</th></tr>
+      <tr><td><b>Qidiruv va takliflar</b></td><td>Ha</td><td>Ha</td><td>Ha</td><td>—</td><td>—</td></tr>
+      <tr><td><b>To'lov usuli</b></td><td>Kirish so'raladi</td><td>Karta, naqd</td><td>Bank o'tkazmasi, karta, naqd</td><td>—</td><td>—</td></tr>
+      <tr><td><b>Buyurtmalar</b></td><td>—</td><td>O'ziniki</td><td>O'ziniki</td><td>Kiruvchi so'rovlar</td><td>Hammasi</td></tr>
+      <tr><td><b>To'lovlar va cheklar</b></td><td>—</td><td>O'ziniki</td><td>O'ziniki (STIR bilan)</td><td>Tushum va xarajatlar</td><td>Hammasi</td></tr>
+      <tr><td><b>Balans va pul aylanishi</b></td><td>—</td><td>—</td><td>—</td><td>Ha</td><td>Himoyadagi pul</td></tr>
+      <tr><td><b>Tasdiqlash va nizolar</b></td><td>—</td><td>Nizo ochadi</td><td>Nizo ochadi</td><td>Tekshiruvdan o'tadi</td><td>Tasdiqlaydi, hal qiladi</td></tr>
+    </table>
+    </div>
+    <div class="hero-btns" style="margin-top:24px"><a class="btn btn-or" href="prototype/index.html#/kirish">Ro'yxatdan o'tib sinab ko'rish</a><a class="btn btn-ghost" href="demo/index.html">Videoda ko'rish</a></div>
+  </div>
+</section>
+
+<section class="light" id="natija" style="padding-top:80px">
+  <div class="wrap">
+    <div class="sec-h"><p class="eyebrow">Natija</p><h2>Bugun va Accelo bilan</h2></div>
+    <div class="tbl-wrap">
+    <table class="tbl">
+      <tr><th style="width:22%">Muammo</th><th style="width:36%">Bugun</th><th>Accelo bilan</th></tr>
+      <tr><td><b>Qidiruv</b></td><td>O'nlab qo'ng'iroq, kunlar ketadi</td><td>Bitta so'rov, takliflar o'zi keladi</td></tr>
+      <tr><td><b>Yakuniy narx</b></td><td>Yetkazish oxirida bilinadi</td><td>Eshikkacha narx darhol ko'rinadi</td></tr>
+      <tr><td><b>To'lov</b></td><td>Oldindan, kafolatsiz</td><td>Qabulgacha himoyada</td></tr>
+      <tr><td><b>Logistika</b></td><td>Mashinani o'zing izlaysan</td><td>Mos mashina avtomatik, jonli kuzatuv</td></tr>
+      <tr><td><b>Xaridor topish</b></td><td>Bozor, reklama, vositachi</td><td>So'rov o'zi keladi, 2% faqat bitimdan</td></tr>
+      <tr><td><b>Talab</b></td><td>Ko'rinmaydi</td><td>Talab xaritasi, 14 hudud</td></tr>
+      <tr><td><b>Aylanma pul</b></td><td>Bitimdan keyin chiqib ketadi</td><td>Platforma ichida aylanadi</td></tr>
+    </table>
+    </div>
+  </div>
+</section>
+
+<!-- 2. JAMOA -->
+<section id="jamoa">
+  <div class="wrap">
+    <div class="sec-h">
+      <p class="eyebrow">2 · Jamoa</p>
+      <h2>Rollar, ko'nikmalar va texnologiyalar</h2>
+    </div>
+    <div class="tgrid">
+      <div class="tcard">
+        <div class="ava">CEO</div>
+        <p class="role">CEO · Pitch va strategiya</p>
+        <h3><span class="ph">[Ism Familiya]</span></h3>
+        <p>G'oya, bozor va biznes model. Hakam va investorlar bilan muloqot, moliya rejasi.</p>
+        <div class="tags"><span class="tag">[ko'nikma 1]</span><span class="tag">[ko'nikma 2]</span><span class="tag">[ko'nikma 3]</span></div>
+        <div class="links"><a href="#">[LinkedIn]</a><a href="#">[Telegram]</a></div>
+      </div>
+      <div class="tcard">
+        <div class="ava">FB</div>
+        <p class="role">CTO · Texnologiya</p>
+        <h3>Farhod Baltayev</h3>
+        <p>Python dasturchi, dasturiy injiniring talabasi. Prototip, arxitektura va MVP'ni qurish uchun javobgar.</p>
+        <div class="tags"><span class="tag">Python</span><span class="tag">Flask</span><span class="tag">PostgreSQL</span><span class="tag">API integratsiya</span><span class="tag">GitHub · Railway</span><span class="tag">SQL · Power BI</span></div>
+        <div class="links"><a href="#">[GitHub]</a><a href="#">[LinkedIn]</a><a href="#">[Telegram]</a></div>
+      </div>
+      <div class="tcard">
+        <div class="ava">COO</div>
+        <p class="role">COO · Hamkorlik va sotuv</p>
+        <h3><span class="ph">[Ism Familiya]</span></h3>
+        <p>Ishlab chiqaruvchilar bilan uchrashuv, kelishuv xatlari, logistika va to'lov hamkorlari, marketing.</p>
+        <div class="tags"><span class="tag">[ko'nikma 1]</span><span class="tag">[ko'nikma 2]</span><span class="tag">[ko'nikma 3]</span></div>
+        <div class="links"><a href="#">[LinkedIn]</a><a href="#">[Telegram]</a></div>
+      </div>
+    </div>
+    <div class="box" style="margin-top:20px">
+      <h2 style="font-size:18px">Prototipda foydalanilgan texnologiyalar</h2>
+      <div class="tags" style="margin-top:6px"><span class="tag">HTML · CSS · JavaScript</span><span class="tag">SVG xaritalar (14 hudud, tumanlar)</span><span class="tag">Masofa va narx algoritmi</span><span class="tag">Playwright avtotestlar</span><span class="tag">AI yordamchi (Claude) — tez prototiplash</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. NEGA BIZ -->
+<section class="light" id="nega-biz">
+  <div class="wrap">
+    <div class="sec-h">
+      <p class="eyebrow">3 · Nima uchun aynan biz</p>
+      <h2>Nega bu muammoni aynan bizning jamoa hal qila oladi</h2>
+    </div>
+    <div class="wgrid">
+      <div class="wcard"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 17V7l8-4 8 4v10l-8 4z"/><path d="m4 7 8 4 8-4M12 11v10"/></svg></div><div><h3>Ishlaydigan prototip bor</h3><p>Biz g'oya bilan cheklanmadik: so'rovdan to'lov va yetkazishgacha bo'lgan butun jarayon ishlaydigan prototipda ko'rinadi, avtotestlar bilan tekshirilgan.</p></div></div>
+      <div class="wcard"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="m8 9-4 3 4 3M16 9l4 3-4 3M14 5l-4 14"/></svg></div><div><h3>Texnik tajriba</h3><p>CTO real loyihalarda Python, Flask, PostgreSQL va API integratsiyalari bilan ishlaydi — MVP'ni tashqi pudratchisiz o'zimiz quramiz.</p></div></div>
+      <div class="wcard"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6"/></svg></div><div><h3>Bozorni bilamiz</h3><p><span class="ph">[Jamoa a'zosining qurilish / agro / savdo sohasidagi tajribasi — 1–2 jumla]</span></p></div></div>
+      <div class="wcard"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><div><h3>Rollar to'liq yopilgan</h3><p>Biznes (CEO), texnologiya (CTO) va hamkorlar bilan ish (COO) — har bir yo'nalishga alohida javobgar bor.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. YO'L XARITASI -->
+<section id="yol-xaritasi">
+  <div class="wrap">
+    <div class="sec-h">
+      <p class="eyebrow">4 · Yo'l xaritasi</p>
+      <h2>Idea → Prototype → MVP → Launched</h2>
+      <p class="lead">Hozir biz <b style="color:#FF7A2E">Prototype</b> bosqichidamiz.</p>
+    </div>
+    <div class="road">
+      <div class="stage done"><span class="st">✓ Bajarildi</span><h3>Idea</h3><p class="when">Sentabr 2026</p><ul><li>Muammo va bozor tahlili</li><li>Biznes model: komissiya 2% + logistika</li></ul></div>
+      <div class="stage now"><span class="st">● Hozir</span><h3>Prototype</h3><p class="when">Oktabr 2026</p><ul><li>Ishlaydigan veb-prototip</li><li>Eshikkacha narx, himoyalangan to'lov, logistika, talab xaritasi</li><li>3 xil foydalanuvchi ro'yxati</li></ul></div>
+      <div class="stage"><span class="st">Keyingi</span><h3>MVP</h3><p class="when">0–3 oy</p><ul><li>Toshkent, qurilish materiallari</li><li>30 ta ishlab chiqaruvchi bilan pilot</li><li>Birinchi real bitimlar operator yordamida</li></ul></div>
+      <div class="stage"><span class="st">Reja</span><h3>Launched</h3><p class="when">6–12 oy</p><ul><li>Veb va mobil ilova</li><li>Bank hamkor va Karvo integratsiyasi</li><li>Agro, ishlab chiqarish, keyin viloyatlar</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. AMALGA OSHIRISH -->
+<section id="reja" style="padding-top:20px">
+  <div class="wrap">
+    <div class="sec-h">
+      <p class="eyebrow">5 · Qanday amalga oshiramiz</p>
+      <h2>Bosqichlar, texnologiyalar va AI vositalari</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><p class="n">1</p><h3>Pilot (qo'lda)</h3><p>30 ta ishlab chiqaruvchi bilan kelishuv. So'rovlarni operator qabul qiladi — talabni tasdiqlaymiz.</p></div>
+      <div class="step"><p class="n">2</p><h3>MVP backend</h3><p>Flask API, PostgreSQL: so'rov, taklif, buyurtma, sotuvchi kabineti, eshikkacha narx hisobi.</p></div>
+      <div class="step"><p class="n">3</p><h3>To'lov va logistika</h3><p>Bank hamkor bilan himoyalangan to'lov, Karvo / Yandex API orqali yetkazish.</p></div>
+      <div class="step"><p class="n">4</p><h3>Kengayish</h3><p>Talab xaritasi asosida yangi soha va viloyatlar, mobil ilova.</p></div>
+    </div>
+    <div class="tech">
+      <div class="t"><h3>Backend</h3><p>Python, Flask, REST API</p><small>CTO'ning asosiy stek</small></div>
+      <div class="t"><h3>Ma'lumotlar bazasi</h3><p>PostgreSQL</p><small>Buyurtmalar, sotuvchilar, talab statistikasi</small></div>
+      <div class="t"><h3>Frontend</h3><p>Veb-ilova (telefonda ham ishlaydi), keyin mobil ilova</p><small>Prototip HTML/JS'da tayyor</small></div>
+      <div class="t"><h3>Xarita va masofa</h3><p>OpenStreetMap ma'lumotlari, yo'l masofasi hisobi</p><small>Prototipda: 14 hudud va tumanlar</small></div>
+      <div class="t"><h3>To'lov</h3><p>Litsenziyali bank hamkor (escrow), karta va bank o'tkazmasi</p><small>Hamkor bilan muzokara — MVP bosqichida</small></div>
+      <div class="t"><h3>Logistika va SMS</h3><p>Karvo / Yandex Delivery API, SMS tasdiqlash</p><small>Hosting: GitHub + Railway</small></div>
+    </div>
+    <div class="ai">
+      <h3>AI vositalari va yechimlar</h3>
+      <ul>
+        <li><b>So'rovni tushunish:</b> «5000 ta g'isht Chilonzorga» kabi erkin matndan mahsulot, miqdor va manzilni ajratish uchun til modeli (LLM).</li>
+        <li><b>Talab prognozi:</b> javobsiz so'rovlar va mavsumiylik asosida qaysi hududda nima kerak bo'lishini oldindan ko'rsatish.</li>
+        <li><b>Narx tavsiyasi:</b> sotuvchiga bozor narxiga mos taklif berishda yordam.</li>
+        <li><b>Ishlab chiqish:</b> prototip AI yordamchi (Claude) bilan tez qurildi va avtotestlar bilan tekshirildi.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 6. AI AGENTLAR -->
+<section id="ai-agentlar" class="agents-sec">
+  <div class="wrap">
+    <div class="sec-h">
+      <p class="eyebrow">6 · Investitsiyadan keyin</p>
+      <h2>AI agentlar: platforma o'zi ishlaydi</h2>
+      <p class="lead">Bugun prototipda bitta yordamchi bor. Investitsiyadan keyin har bir jarayonni alohida AI agent bajaradi — pul va imzo esa doim inson tasdig'i bilan.</p>
+    </div>
+    <div class="agrid">
+      <article class="agent"><div class="ai-ic">🛒</div><p class="when">0–3 oy</p><h3>Xarid agenti</h3><p>Matn, ovoz yoki rasmdan so'rovni tushunadi, takliflarni solishtiradi, sotuvchi bilan narx bo'yicha kelishadi va xaridorga tayyor tanlov beradi.</p></article>
+      <article class="agent"><div class="ai-ic">💬</div><p class="when">0–3 oy</p><h3>Qo'llab-quvvatlash agenti</h3><p>24/7 o'zbek va rus tilida: buyurtma holati, to'lov, qaytarish savollari. Murakkab holat — operatorga.</p></article>
+      <article class="agent"><div class="ai-ic">🏭</div><p class="when">3–6 oy</p><h3>Sotuvchi agenti</h3><p>Kelgan so'rovga qoldiq, bozor narxi va masofaga qarab narx taklifini tayyorlaydi. Sotuvchi bitta tugma bilan yuboradi.</p></article>
+      <article class="agent"><div class="ai-ic">📄</div><p class="when">3–6 oy</p><h3>Hujjat agenti</h3><p>Hisob-faktura, shartnoma, dalolatnoma va cheklarni avtomatik tayyorlaydi, buxgalteriyaga eksport qiladi.</p></article>
+      <article class="agent"><div class="ai-ic">🚚</div><p class="when">6–12 oy</p><h3>Logistika agenti</h3><p>Bir yo'nalishdagi buyurtmalarni bitta mashinaga birlashtiradi, marshrut tuzadi, Karvo/Yandex'da bron qiladi.</p></article>
+      <article class="agent"><div class="ai-ic">📈</div><p class="when">6–12 oy</p><h3>Talab prognozi agenti</h3><p>Javobsiz so'rovlar va mavsumiylikdan qaysi hududda nima kerak bo'lishini oldindan aytadi — tadbirkorlarga tayyor bozor signali.</p></article>
+      <article class="agent"><div class="ai-ic">🛡️</div><p class="when">6–12 oy</p><h3>Xavfsizlik agenti</h3><p>Firibgarlik belgilarini aniqlaydi, sotuvchi reytingini hisoblaydi, nizoda rasm va aktlarni tahlil qilib moderatorga tavsiya beradi.</p></article>
+      <article class="agent hl"><div class="ai-ic">✋</div><p class="when">Qoida</p><h3>Inson nazorati</h3><p>Agent tavsiya qiladi va tayyorlaydi. Pul o'tkazish, shartnoma imzolash va nizo qarori — faqat inson tasdig'i bilan.</p></article>
+    </div>
+    <div class="ai" style="margin-top:24px">
+      <h3>Qanday quriladi</h3>
+      <ul>
+        <li><b>Model:</b> til modeli (LLM) Accelo API'ga «asboblar» orqali ulanadi: qidiruv, taklif, buyurtma, hujjat.</li>
+        <li><b>Bilim bazasi:</b> katalog, narxlar, sotuvchilar va buyurtmalar tarixi (RAG) — agent faqat haqiqiy ma'lumot bilan javob beradi.</li>
+        <li><b>Xavfsizlik:</b> har bir harakat jurnalga yoziladi, pul bilan bog'liq qadam — tasdiqsiz bajarilmaydi.</li>
+        <li><b>Hozirgi holat:</b> prototipdagi yordamchi qoidalar asosida ishlaydi; investitsiyadan keyin LLM bilan almashtiriladi.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <div class="wrap">
+    <h2>7 ta muammo — bitta platforma</h2>
+    <p class="lead">Demo-videoni ko'ring yoki prototipni o'zingiz sinab ko'ring: so'rov yozing, takliflarni solishtiring va bitim qanday yakunlanishini ko'ring.</p>
+    <div class="hero-btns">
+      <a class="btn btn-or" href="demo/index.html">Demo sahifasi</a>
+      <a class="btn btn-ghost" href="prototype/index.html">Prototipni ochish</a>
+      <a class="btn btn-ghost" href="prototype/index.html#/kirish">Ro'yxatdan o'tish</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>© 2026 Accelo jamoasi · Pitch Day 3.0</p>
+    <p><span class="ph">[Telefon]</span> · <span class="ph">[Telegram]</span></p>
+  </div>
+</footer>
+
+<script src="assets/bot.js" defer></script>
+<script src="assets/reveal.js" defer></script>
+<script>
+(function(){
+  var b=document.getElementById('menuBtn'), n=document.getElementById('nav');
+  b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');});
+  n.addEventListener('click',function(e){if(e.target.tagName==='A'){n.classList.remove('open');b.setAttribute('aria-expanded','false');}});
+})();
+</script>
+</body>
+</html>
